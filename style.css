@@ -1,0 +1,33 @@
+.body{
+  font:bold;
+  font-family: 'Times New Roman', Times, serif;  
+
+}
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 300px;
+    margin-top: 20px;
+    
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    cursor: pointer;
+    opacity: 0.5;
+  }
+
+  .cell:hover{
+    background-color: yellow;
+  }
+  
